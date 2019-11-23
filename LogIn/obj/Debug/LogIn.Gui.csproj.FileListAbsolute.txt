@@ -1,0 +1,17 @@
+D:\Projekte\_Source\_Repos\LogIn\bin\Debug\LogIn.exe.config
+D:\Projekte\_Source\_Repos\LogIn\bin\Debug\LogIn.exe
+D:\Projekte\_Source\_Repos\LogIn\bin\Debug\LogIn.pdb
+D:\Projekte\_Source\_Repos\LogIn\bin\Debug\teLogIn.dll
+D:\Projekte\_Source\_Repos\LogIn\bin\Debug\teLogIn.pdb
+D:\Projekte\_Source\_Repos\LogIn\obj\Debug\LogIn.Gui.csprojAssemblyReference.cache
+D:\Projekte\_Source\_Repos\LogIn\obj\Debug\MainWindow.g.cs
+D:\Projekte\_Source\_Repos\LogIn\obj\Debug\App.g.cs
+D:\Projekte\_Source\_Repos\LogIn\obj\Debug\LogIn_MarkupCompile.cache
+D:\Projekte\_Source\_Repos\LogIn\obj\Debug\LogIn_MarkupCompile.lref
+D:\Projekte\_Source\_Repos\LogIn\obj\Debug\MainWindow.baml
+D:\Projekte\_Source\_Repos\LogIn\obj\Debug\LogIn.g.resources
+D:\Projekte\_Source\_Repos\LogIn\obj\Debug\LogIn.Properties.Resources.resources
+D:\Projekte\_Source\_Repos\LogIn\obj\Debug\LogIn.Gui.csproj.GenerateResource.cache
+D:\Projekte\_Source\_Repos\LogIn\obj\Debug\LogIn.Gui.csproj.CopyComplete
+D:\Projekte\_Source\_Repos\LogIn\obj\Debug\LogIn.exe
+D:\Projekte\_Source\_Repos\LogIn\obj\Debug\LogIn.pdb

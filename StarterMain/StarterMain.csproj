@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogIn\LogIn.Gui.csproj">
+      <Project>{5963678f-7c81-4792-a583-8b2186f24c27}</Project>
+      <Name>LogIn.Gui</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
