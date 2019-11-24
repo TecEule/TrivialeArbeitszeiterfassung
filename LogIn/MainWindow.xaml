@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LogIn.Gui"
         mc:Ignorable="d"
-        Title="Anmeldung" Height="114.991" Width="354.527">
+        Title="Anmeldung" Height="114.991" Width="272.721" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" >
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="60"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
@@ -22,9 +22,9 @@
 
         <Button Margin="2" x:Name="btn_Anmelden" Content="Anmelden" Grid.Column="3" Grid.Row="3" Click="btn_Anmelden_Click"></Button>
         <Button Margin="2" x:Name="btn_Abbruch" Content="Abbruch" Grid.Column="2" Grid.Row="3" Click="btn_Abbruch_Click"></Button>
-        <Label Content="Benutzer:"/>
-        <Label Grid.Row="1" Content="Passwort:"/>
-        <TextBox Margin="0 2 2 0" x:Name="txt_Benutzer" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" Background="Aquamarine"></TextBox>
-        <PasswordBox Margin="0 2 2 0 " x:Name="txt_Password" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" Background="AntiqueWhite"></PasswordBox>
+        <Label VerticalAlignment="Center" Content="Benutzer:"/>
+        <Label VerticalAlignment="Center" Grid.Row="1" Content="Passwort:"/>
+        <TextBox VerticalAlignment="Center" Margin="0 2 2 0" x:Name="txt_Benutzer" Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="3" Background="WhiteSmoke"></TextBox>
+        <PasswordBox VerticalAlignment="Center" Margin="0 2 2 0 " x:Name="txt_Password" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="3" PasswordChar="*" Background="WhiteSmoke"></PasswordBox>
     </Grid>
 </Window>
