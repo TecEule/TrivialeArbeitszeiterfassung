@@ -19,8 +19,10 @@ namespace StarterMain
             // Create LogIn page
             LogIn.Gui.MainWindow.Instance.ShowDialog();
 
-            if(!LogIn.Gui.MainWindow.Instance.correctLogIn)
-                this.MainWindow.Close();
+            if (!LogIn.Gui.MainWindow.Instance.correctLogIn)
+            {  
+                this.MainWindow?.Close();
+            }
         }
   }
 }
