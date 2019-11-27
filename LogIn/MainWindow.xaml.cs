@@ -16,63 +16,85 @@ using teLogIn;
 
 namespace LogIn.Gui
 {
-    /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
+  /// <summary>
+  /// Interaktionslogik für MainWindow.xaml
+  /// </summary>
+  public partial class MainWindow : Window
+  {
+
+
+    private bool _correctLogIn;
+    public bool correctLogIn
     {
-
-
-        private bool _correctLogIn;
-        public bool correctLogIn 
-        {
-            get
-            {
-                return _correctLogIn;
-            }
-        }
-
-        private static MainWindow _instance;
-        public static MainWindow Instance
-        {
-            get
-            {
-                if (_instance == null)
-                    _instance = new MainWindow();
-
-                return _instance;
-            }
-        }
-        private MainWindow()
-        {
-            InitializeComponent();
-        }
-
-        private void btn_Anmelden_Click(object sender, RoutedEventArgs e)
-        {
-            bool correct = checkLogInData(txt_Benutzer.Text.Trim(), txt_Password.Password);
-
-            if (!correct)
-                MessageBox.Show("Die von Ihnen eingebenen Daten sind noch korrekt!", "Anmeldung", MessageBoxButton.OK, MessageBoxImage.Error);
-            else
-                Close();
-
-            _correctLogIn = correct;
-
-        }
-
-        private void btn_Abbruch_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
-        }
-
-        private bool checkLogInData(string benutzer, string passwort)
-        {
-            bool correct = false;
-
-            correct = teLogIn.teLogIn.Instance.checkLogIn(benutzer, passwort);
-            
-            return correct;
-        }
+      get
+      {
+        return _correctLogIn;
+      }
     }
+
+    
+    private static MainWindow _instance;
+    public static MainWindow Instance
+    {
+      get
+      {
+        if (_instance == null)
+          _instance = new MainWindow();
+
+        return _instance;
+      }
+    }
+
+    /// <summary>
+    /// Default Constructor
+    /// </summary>
+    private MainWindow()
+    {
+      InitializeComponent();
+    }
+
+    /// <summary>
+    /// Was passieren soll wenn der Anmelde-Button gedrückt wird
+    /// Die Daten werden überprüft
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    private void btn_Anmelden_Click(object sender, RoutedEventArgs e)
+    {
+      bool correct = checkLogInData(txt_Benutzer.Text.Trim(), txt_Password.Password);
+
+      if (!correct)
+        MessageBox.Show("Die von Ihnen eingebenen Daten sind noch korrekt!", "Anmeldung", MessageBoxButton.OK, MessageBoxImage.Error);
+      else
+        Close();
+
+      _correctLogIn = correct;
+
+    }
+
+    /// <summary>
+    /// Die Anmeldeversuch wird abgebrochen und die Anwendung wird geschlossen
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    private void btn_Abbruch_Click(object sender, RoutedEventArgs e)
+    {
+      Close();
+    }
+
+    /// <summary>
+    /// Überprüfung ob die eingebenen Daten stimmen
+    /// </summary>
+    /// <param name="benutzer"></param>
+    /// <param name="passwort"></param>
+    /// <returns></returns>
+    private bool checkLogInData(string benutzer, string passwort)
+    {
+      bool correct = false;
+
+      correct = teLogIn.teLogIn.Instance.checkLogIn(benutzer, passwort);
+
+      return correct;
+    }
+  }
 }
