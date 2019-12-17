@@ -19,13 +19,13 @@ D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfa
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\bin\Debug\LogIn.exe
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\bin\Debug\LogIn.pdb
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\bin\Debug\teLogIn.dll
+D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\bin\Debug\Newtonsoft.Json.dll
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\bin\Debug\teLogIn.pdb
+D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\bin\Debug\Newtonsoft.Json.xml
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LogIn.Gui.csprojAssemblyReference.cache
-D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\MainWindow.g.cs
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\App.g.cs
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LogIn_MarkupCompile.cache
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LogIn_MarkupCompile.lref
-D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\MainWindow.baml
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LogIn.g.resources
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LogIn.Properties.Resources.resources
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LogIn.Gui.csproj.GenerateResource.cache
@@ -33,5 +33,5 @@ D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfa
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LogIn.Gui.csproj.CopyComplete
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LogIn.exe
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LogIn.pdb
-D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\bin\Debug\Newtonsoft.Json.dll
-D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\bin\Debug\Newtonsoft.Json.xml
+D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LoginGui.g.cs
+D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LoginGui.baml

@@ -2,7 +2,6 @@ D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfa
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teCore\bin\Debug\teCore.pdb
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teCore\bin\Debug\Newtonsoft.Json.dll
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teCore\bin\Debug\Newtonsoft.Json.xml
-D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teCore\obj\Debug\teCore.csprojAssemblyReference.cache
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teCore\obj\Debug\teCore.csproj.CoreCompileInputs.cache
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teCore\obj\Debug\teCore.csproj.CopyComplete
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teCore\obj\Debug\teCore.dll

@@ -16,15 +16,23 @@ namespace StarterMain
 
     private void Application_Startup(object sender, StartupEventArgs e)
     {
+      StarterMain.MainWindow window = new MainWindow();
+
+
       // Create LogIn page
       //LogIn.Gui.MainWindow.Instance.ShowDialog();
-      LogIn.Gui.MainWindow main = new LogIn.Gui.MainWindow();
+      LogIn.Gui.LoginGui main = new LogIn.Gui.LoginGui();
       main.ShowDialog();
 
-      //if (!LogIn.Gui.MainWindow.Instance.correctLogIn)
-      //{
-        //this.MainWindow?.Close();
-      //}
+      if (!LogIn.Gui.LoginGui.Instance.correctLogIn)
+      {
+        this.MainWindow?.Close();
+        window?.Close();
+        window = null;
+        this.Shutdown();
+      }
+
+      
     }
   }
 }

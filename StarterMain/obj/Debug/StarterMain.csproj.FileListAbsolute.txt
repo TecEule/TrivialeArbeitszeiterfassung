@@ -23,9 +23,11 @@ D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfa
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\bin\Debug\StarterMain.pdb
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\bin\Debug\LogIn.exe
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\bin\Debug\teLogIn.dll
+D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\bin\Debug\Newtonsoft.Json.dll
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\bin\Debug\LogIn.pdb
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\bin\Debug\LogIn.exe.config
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\bin\Debug\teLogIn.pdb
+D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\bin\Debug\Newtonsoft.Json.xml
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\obj\Debug\StarterMain.csprojAssemblyReference.cache
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\obj\Debug\MainWindow.g.cs
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\obj\Debug\App.g.cs
@@ -39,5 +41,3 @@ D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfa
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\obj\Debug\StarterMain.csproj.CopyComplete
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\obj\Debug\StarterMain.exe
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\obj\Debug\StarterMain.pdb
-D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\bin\Debug\Newtonsoft.Json.dll
-D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\StarterMain\bin\Debug\Newtonsoft.Json.xml

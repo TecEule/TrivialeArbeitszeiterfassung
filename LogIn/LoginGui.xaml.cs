@@ -17,9 +17,9 @@ using teLogIn;
 namespace LogIn.Gui
 {
   /// <summary>
-  /// Interaktionslogik für MainWindow.xaml
+  /// Interaktionslogik für LoginGui.xaml
   /// </summary>
-  public partial class MainWindow : Window
+  public partial class LoginGui : Window
   {
 
 
@@ -33,13 +33,13 @@ namespace LogIn.Gui
     }
 
     
-    private static MainWindow _instance;
-    public static MainWindow Instance
+    private static LoginGui _instance;
+    public static LoginGui Instance
     {
       get
       {
         if (_instance == null)
-          _instance = new MainWindow();
+          _instance = new LoginGui();
 
         return _instance;
       }
@@ -48,7 +48,7 @@ namespace LogIn.Gui
     /// <summary>
     /// Default Constructor
     /// </summary>
-    public MainWindow()
+    public LoginGui()
     {
       InitializeComponent();
     }
