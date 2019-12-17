@@ -4,7 +4,9 @@ D:\Projekte\_Source\_Repos\teLogIn\obj\Debug\teLogIn.dll
 D:\Projekte\_Source\_Repos\teLogIn\obj\Debug\teLogIn.pdb
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teLogIn\bin\Debug\teLogIn.dll
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teLogIn\bin\Debug\teLogIn.pdb
-D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teLogIn\obj\Debug\teLogIn.csprojAssemblyReference.cache
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teLogIn\obj\Debug\teLogIn.csproj.CoreCompileInputs.cache
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teLogIn\obj\Debug\teLogIn.dll
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teLogIn\obj\Debug\teLogIn.pdb
+D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teLogIn\bin\Debug\Newtonsoft.Json.dll
+D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teLogIn\bin\Debug\Newtonsoft.Json.xml
+D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\teLogIn\obj\Debug\teLogIn.csproj.CopyComplete

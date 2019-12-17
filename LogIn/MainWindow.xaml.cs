@@ -48,7 +48,7 @@ namespace LogIn.Gui
     /// <summary>
     /// Default Constructor
     /// </summary>
-    private MainWindow()
+    public MainWindow()
     {
       InitializeComponent();
     }

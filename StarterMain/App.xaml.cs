@@ -14,15 +14,17 @@ namespace StarterMain
   public partial class App : Application
   {
 
-        private void Application_Startup(object sender, StartupEventArgs e)
-        {
-            // Create LogIn page
-            LogIn.Gui.MainWindow.Instance.ShowDialog();
+    private void Application_Startup(object sender, StartupEventArgs e)
+    {
+      // Create LogIn page
+      //LogIn.Gui.MainWindow.Instance.ShowDialog();
+      LogIn.Gui.MainWindow main = new LogIn.Gui.MainWindow();
+      main.ShowDialog();
 
-            if (!LogIn.Gui.MainWindow.Instance.correctLogIn)
-            {  
-                this.MainWindow?.Close();
-            }
-        }
+      //if (!LogIn.Gui.MainWindow.Instance.correctLogIn)
+      //{
+        //this.MainWindow?.Close();
+      //}
+    }
   }
 }

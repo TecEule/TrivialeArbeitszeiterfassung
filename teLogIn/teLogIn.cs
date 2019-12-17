@@ -67,6 +67,8 @@ namespace teLogIn
     {
       string password = string.Empty;
 
+      password = JsonFile.Instance.readUserPasswordFromFile<string>(benutzer, "");
+
       return password;
     }
   }
