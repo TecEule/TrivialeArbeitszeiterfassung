@@ -35,3 +35,5 @@ D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfa
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LogIn.pdb
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LoginGui.g.cs
 D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\LoginGui.baml
+D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\FirstLogin.g.cs
+D:\Projekte\Projekte_Eigene\TrivialeArbeitszeiterfassung\TrivialeArbeitszeiterfassung\LogIn\obj\Debug\FirstLogin.baml

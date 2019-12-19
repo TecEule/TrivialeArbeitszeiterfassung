@@ -99,6 +99,10 @@
       <Project>{5963678f-7c81-4792-a583-8b2186f24c27}</Project>
       <Name>LogIn.Gui</Name>
     </ProjectReference>
+    <ProjectReference Include="..\teLogIn\teLogIn.csproj">
+      <Project>{BB605D0B-B876-4DB9-B84D-DB1EB60E61C6}</Project>
+      <Name>teLogIn</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

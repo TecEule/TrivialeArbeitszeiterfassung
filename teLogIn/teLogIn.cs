@@ -26,25 +26,25 @@ namespace teLogIn
 
     }
 
-    public bool checkLogIn(AccountModelView account)
+    public bool checkLogIn(AccountModelView account, string key)
     {
-      return checkLogIn(account.Username, account.Password);
+      return checkLogIn(account.Username, account.Password, key);
     }
-    public bool checkLogIn(string benutzer, string passwort)
+    public bool checkLogIn(string benutzer, string passwort, string key)
     {
       bool correct = false;
 
-      correct = compareData(benutzer, passwort);
+      correct = compareData(benutzer, passwort, key);
 
       return correct;
     }
 
-    private bool compareData(string benutzer, string passwort)
+    private bool compareData(string benutzer, string passwort, string key)
     {
       bool correct = false;
 
 
-      string passwortFromFile = getPasswort(benutzer);
+      string passwortFromFile = getPasswort(benutzer, key);
 
       if (passwort.Equals(passwortFromFile))
       {
@@ -54,20 +54,20 @@ namespace teLogIn
       return correct;
     }
 
-    private string getPasswort(string benutzer)
+    private string getPasswort(string benutzer, string key)
     {
       string password = string.Empty;
 
-      password = readPasswordFromFile(benutzer);
+      password = readPasswordFromFile(benutzer, key);
 
       return password;
     }
 
-    private string readPasswordFromFile(string benutzer)
+    private string readPasswordFromFile(string benutzer, string key)
     {
       string password = string.Empty;
 
-      password = JsonFile.Instance.readUserPasswordFromFile<string>(benutzer, "");
+      password = JsonFile.Instance.readUserPasswordFromFile<string>(benutzer, key, "");
 
       return password;
     }

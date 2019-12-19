@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="AccountModelView.cs" />
     <Compile Include="JsonFile.cs" />
+    <Compile Include="teCrypt.cs" />
     <Compile Include="teLogIn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

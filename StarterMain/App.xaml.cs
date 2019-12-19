@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using teLogIn;
 
 namespace StarterMain
 {
@@ -20,12 +21,24 @@ namespace StarterMain
 
 
       // Create LogIn page
-      //LogIn.Gui.MainWindow.Instance.ShowDialog();
-      LogIn.Gui.LoginGui main = new LogIn.Gui.LoginGui();
-      main.ShowDialog();
+      if (!JsonFile.Instance.existFile())
+      {
+        LogIn.FirstLogin first = new LogIn.FirstLogin();
+        bool? result = first.ShowDialog();
+        if ((bool)result)
+        {
+          LogIn.Gui.LoginGui.Instance.ShowDialog();
+        }
+
+      }
+      else
+      {
+        LogIn.Gui.LoginGui.Instance.ShowDialog();
+      }
 
       if (!LogIn.Gui.LoginGui.Instance.correctLogIn)
       {
+        // Cancel
         this.MainWindow?.Close();
         window?.Close();
         window = null;

@@ -28,16 +28,37 @@ namespace teLogIn
 
     string _filePath = @"D:\account.json";
 
-    private bool existFile(string fileName)
+    public bool existFile()
     {
       bool exists = false;
-      string filePath = _filePath + fileName +".json";
-      if(Directory.Exists(filePath))
+      if(File.Exists(_filePath))
       {
         exists = true;
       }
 
       return exists;
+    }
+
+    public void CreateFile(AccountModelView account)
+    {
+      if(account != null)
+      {
+        Accounts accounts = new Accounts();
+
+        accounts.Konten = new List<AccountModelView>();
+        accounts.Konten.Add(account);
+
+        List<Accounts> list = new List<Accounts>();
+        list.Add(accounts);
+
+        string filePath = "";
+        using (StreamWriter file = File.CreateText(_filePath))
+        {
+          JsonSerializer serializer = new JsonSerializer();
+          //serialize object directly into file stream
+          serializer.Serialize(file, list);
+        }
+      }
     }
 
     private List<Accounts> loadFromFile(string filePath)
@@ -69,13 +90,15 @@ namespace teLogIn
 
 
 
-    public T readUserPasswordFromFile<T>(string user, T defaultValue) where T : IConvertible
+    public T readUserPasswordFromFile<T>(string user,string key, T defaultValue) where T : IConvertible
     {
       T retValue = defaultValue;
       string readValue = string.Empty;
 
       var accounts = loadFromFile(_filePath);
       readValue = getPasswordFromUser(user, accounts);
+
+      readValue = teCrypt.Instance.DecryptString(readValue, key);
 
       try
       {

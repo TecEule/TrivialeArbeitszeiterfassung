@@ -61,7 +61,7 @@ namespace LogIn.Gui
     /// <param name="e"></param>
     private void btn_Anmelden_Click(object sender, RoutedEventArgs e)
     {
-      bool correct = checkLogInData(txt_Benutzer.Text.Trim(), txt_Password.Password);
+      bool correct = checkLogInData(txt_Benutzer.Text.Trim(), txt_Password.Password, txt_Key.Text);
 
       if (!correct)
         MessageBox.Show("Die von Ihnen eingebenen Daten sind noch korrekt!", "Anmeldung", MessageBoxButton.OK, MessageBoxImage.Error);
@@ -88,11 +88,11 @@ namespace LogIn.Gui
     /// <param name="benutzer"></param>
     /// <param name="passwort"></param>
     /// <returns></returns>
-    private bool checkLogInData(string benutzer, string passwort)
+    private bool checkLogInData(string benutzer, string passwort, string key)
     {
       bool correct = false;
 
-      correct = teLogIn.teLogIn.Instance.checkLogIn(benutzer, passwort);
+      correct = teLogIn.teLogIn.Instance.checkLogIn(benutzer, passwort, key);
 
       return correct;
     }
