@@ -10,7 +10,7 @@ namespace teLogIn
 {
   public class teCrypt
   {
-
+       
     private static teCrypt _instance;
     public static teCrypt Instance
     {
@@ -35,7 +35,7 @@ namespace teLogIn
 
       return bkey;
     }
-
+    // dfgdfg
     private byte[] doCreateBlockSize(int newBlockSize)
     {
       byte[] block = new byte[newBlockSize];
